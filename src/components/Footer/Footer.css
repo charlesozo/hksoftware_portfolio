@@ -19,6 +19,12 @@
 .f-icons {
   display: flex;
   gap: 2rem;
+  cursor: pointer;
+}
+.contact-details{
+  display: flex;
+  flex-direction: column;
+  color: #04081f;
 }
 
 @media screen and (max-width: 480px){

@@ -25,18 +25,24 @@ const Intro = () => {
     <div className="Intro" id="Intro">
       {/* left name side */}
       <div className="i-left">
-        <div className="i-name">
-          {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+        <div className="i-name">       
+          <span style={{ color: darkMode ? "white" : "" }}>Hey there!</span>
+          <span>Let's get you started</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+            Unlock the full potential of your business with top-tier software
+            solutions! We are a dedicated and skilled software developers with a
+            proven track record of transforming ideas into functional,
+            high-performance applications. From custom web and mobile
+            development to optimizing existing systems, my expertise covers a
+            wide spectrum of technologies. Together, we can create software that
+            not only meets your needs but exceeds your expectations. Let's
+            embark on this digital journey and empower your business for
+            success!
           </span>
-        </div>
-        <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
+        <Link to="contact" smooth={true} spy={true} className="Hire">
+          <button className="button i-button">Hire us</button>
         </Link>
+        </div>
         {/* social icons */}
         <div className="i-icons">
           <img src={Github} alt="" />
@@ -64,7 +70,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Web" text2="Developers" />
         </motion.div>
 
         {/* animation */}
@@ -75,7 +81,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="UI/UX design" text2="top notch"/>
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

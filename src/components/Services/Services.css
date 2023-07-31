@@ -2,9 +2,8 @@
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 30rem;
-  margin-bottom: 8rem;
-  margin-top: 9rem;
-  margin-bottom: 13rem;
+  margin-top: 9em;
+  margin-bottom: 13em;
   /* scroll view */
   padding-top: 3rem;
 }
@@ -28,9 +27,10 @@
 }
 .awesome > :nth-child(3) {
   color: var(--gray);
-  font-size: 14px;
-  margin-top: 1rem;
+  font-size: 1rem;
+  margin-top: 1.4rem;
 }
+
 .s-button {
   width: 8rem;
   height: 2rem;
@@ -39,6 +39,7 @@
 /* right sided */
 .cards {
   position: relative;
+  margin-left: 5em;
 }
 .cards > * {
   position: absolute;
@@ -54,6 +55,8 @@
   top: 13rem;
   left: -18rem;
 }
+
+
 
 @media screen and (max-width: 480px) {
   .services {

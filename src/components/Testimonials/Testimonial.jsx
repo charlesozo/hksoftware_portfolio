@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "Absolutely thrilled with the software services provided! Their team's expertise and dedication brought our vision to life. The end result exceeded our expectations, and we're now equipped with a cutting-edge solution that has streamlined our operations and delighted our customers. Highly recommended!"
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "Working with this software company has been an exceptional experience. Their attention to detail and thorough understanding of our requirements were evident from the start. They delivered a flawless web application that has significantly improved our efficiency. Fantastic communication and top-notch service throughout the project."
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "Outstanding job on our mobile app development! The user interface is sleek and intuitive, making it a breeze for our customers to navigate. Their team was receptive to our ideas and provided valuable insights, resulting in a product that stands out in the market. We couldn't be happier with the outcome!"
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+      "Impressed with the web development services! The team showcased a perfect blend of creativity and technical expertise, resulting in a website that truly reflects our brand identity. They went above and beyond to ensure every aspect of the design aligned with our goals. Highly satisfied with their professionalism and support."
     },
   ];
 
@@ -39,7 +39,7 @@ const Testimonial = () => {
       <div className="t-heading">
         <span>Clients always get </span>
         <span>Exceptional Work </span>
-        <span>from me...</span>
+        <span>from us...</span>
       <div className="blur t-blur1" style={{ background: "var(--purple)" }}></div>
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 

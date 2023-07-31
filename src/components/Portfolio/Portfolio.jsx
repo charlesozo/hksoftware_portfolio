@@ -35,6 +35,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={HOC} alt="" />
         </SwiperSlide>
+       
       </Swiper>
     </div>
   );

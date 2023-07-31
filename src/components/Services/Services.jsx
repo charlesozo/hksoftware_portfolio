@@ -26,18 +26,24 @@ const Services = () => {
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
-        </spane>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
-        </a>
+        <span className="services-all">
+     🌐 Stunning Website Design and Development <br/>
+      📱 Responsive and Mobile-Friendly Solutions<br/>
+      💼 E-commerce Stores that Convert<br/>
+     🚀 Custom Web Applications for Efficiency<br/>
+   🛡️ Top-Notch Web Security and SSL Integration<br/>
+   📈 SEO Optimization for Higher Rankings<br/>
+   💡 Innovative API Development and Integration<br/>
+  🔒 Web Accessibility for Inclusivity<br/>
+  💬 Engaging Chatbot Integration<br/>
+   💻 Expert Technical Support and Maintenance
+        
+        </span>
+        
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
-      <div className="cards">
+      <div className="cards" >
         {/* first card */}
         <motion.div
           initial={{ left: "25rem" }}
@@ -72,7 +78,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Seamless Experiences, Stunning Interfaces."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

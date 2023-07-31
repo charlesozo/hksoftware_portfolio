@@ -41,6 +41,25 @@ textarea{
     top: 1rem;
     left: 8rem;
 }
+.whatsapp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #25d366;
+     border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .whatsapp a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .whatsapp a:hover {
+    background-color: #128c7e;
+  }
 
 @media screen and (max-width: 480px) {
     .contact-form{
